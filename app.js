@@ -5,7 +5,7 @@ const bodyParser=require("body-parser");
 // const date=require(__dirname+"/date.js");
 const mongoose=require("mongoose");
 
-    mongoose.connect("mongodb://0.0.0.0:27017/todolistDB");
+    mongoose.connect("mongodb+srv://suresh:passwordP2S@cluster0.xaqwoh7.mongodb.net/?retryWrites=true&w=majority");
     const itemsSchema = new mongoose.Schema({
         name:String
     });
